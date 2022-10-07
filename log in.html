@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Login form</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="apple-touch-icon" href="assets/img/Icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/Icon.png">
+  </head>
+	<body class="body">
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap1 py-5">
+		      	<h3 class="text-center mb-0"><strong>Welcome to Avogue</strong></h3>
+		      	<p class="text-center">Log in by entering the information below</p>
+
+						<form action="login.php" method="post" class="login-form">
+		      		<div class="form-group">
+		      			<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-user"></span></div>
+		      			<input type="email" id="email" class="form-control" placeholder="Email" name="email" required>
+		      		</div>
+
+	            <div class="form-group">
+	            	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-lock"></span></div>
+	              <input type="password" id="passwordd" class="form-control" placeholder="Password" name="passwordd" required>
+	            </div>
+
+	            <div class="form-group">
+	            	<button type="submit" value="Login" class="btn form-control btn-primary rounded submit px-3"><strong>LOG IN</strong></button>
+	            </div>
+	          </form>
+
+	          <div class="w-100 text-center mt-4 text">
+	          	<p class="mb-0">Don't have an account?</p>
+		          <a href="signup.php" style="color:#0890ff">Register</a>
+	          </div>
+	        </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
+
